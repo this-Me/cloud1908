@@ -84,9 +84,3 @@ print("l's index: {}".format(string.find("l", 4, len(string) - 1)))
 # hello -> olleh
 string = "hello"
 print("olleh: {}".format(string[::-1]))
-
-
-
-
-
-

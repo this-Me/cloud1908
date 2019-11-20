@@ -83,3 +83,18 @@ for x in range(1, 101):
     if x % 2 == 0:
         listC.append(x)
 
+
+# 使用python计算10-9+8-7+6-5+4-3+2-1的结果?
+n, m = 10, 0
+while n > 0:
+    m += n * (-1) ** n
+    n -= 1
+print(m)
+
+m = 0
+for n in range(1, 11):
+    if n % 2 == 0:
+        m += n
+    else:
+        m -= n
+print(m)
