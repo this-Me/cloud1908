@@ -5,7 +5,12 @@
       <w>helloworld</w>
       <w>hlions</w>
       <w>ifcondition</w>
+      <w>isidentifier</w>
+      <w>lstrip</w>
+      <w>olleh</w>
       <w>oneday</w>
+      <w>passwd</w>
+      <w>rstrip</w>
     </words>
   </dictionary>
 </component>
