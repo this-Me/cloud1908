@@ -3,6 +3,14 @@
 # 对上方的字典进行排序 -> 根据值进行排序;
 
 # 从access_log中读取ip地址, 并统计每个ip访问的次数, 且提取出排名前十的IP地址;
+with open(file="access_log", mode='r') as log:
+    ips = {}
+    for lines in log.readlines():
+        if lines.split()[0] in ips.keys():
+            ips[lines.split()[0]] += 1
+        else:
+            ips.setdefault(lines.split()[0], 1)
+    print(ips)
 
 # 请统计出网站的PV量及UV量; -> 就是在access_log中统计出接受过多少次访问?和有多少个不同的ip访问
 
