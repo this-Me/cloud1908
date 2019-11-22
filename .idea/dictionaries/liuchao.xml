@@ -10,13 +10,16 @@
       <w>iplist</w>
       <w>isidentifier</w>
       <w>lindex</w>
+      <w>logpath</w>
       <w>lstrip</w>
       <w>nezha</w>
       <w>olleh</w>
       <w>oneday</w>
       <w>passwd</w>
       <w>rstrip</w>
+      <w>threeday</w>
       <w>threekingdom</w>
+      <w>ysds</w>
     </words>
   </dictionary>
 </component>
