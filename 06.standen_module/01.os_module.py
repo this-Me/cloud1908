@@ -29,8 +29,5 @@ for i in content:
 paths = '/Users/liuchao/Documents/user'
 for files in content:
     abspath = os.path.join(paths, files)
-    print(os.path.getsize(abspath))     #B
-
-
-
+    print(os.path.getsize(abspath))     # B
 
