@@ -18,4 +18,3 @@ result01 = res.findall(data01)
 print(result01)
 result02 = res.findall(data02)
 print(result02)
-
